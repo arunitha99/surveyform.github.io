@@ -1,0 +1,57 @@
+body{
+    text-align:center;
+    position:relative;
+  margin-left:35%;
+  margin-right:35%;
+    background-color:orange;
+    color:black;
+  display: block;
+}
+
+#survey-form
+{
+    border:1px solid black;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+  left: 35%;
+  right:35%;
+    text-align:center;
+    margin: 10px;
+  float:center;
+}
+label{
+    padding: 10px 10px 20px 10px;
+}
+input{
+    margin-right: 10px;
+}
+#SURVEY{
+  margin-left: auto;
+  margin-right: auto;
+  padding:auto;
+  text-align:center;
+}
+button
+{
+    align-self:auto ;
+  margin:2%;
+}
+#title
+{
+  text-align:center;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  margin:10px;
+  padding:10px;
+}
+#description
+{
+  text-align:center;
+  position: relative;
+  left: 5%;
+  font-size:30px;
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}

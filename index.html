@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <title>SURVEY PAGE</title>
+  <link rel="stylesheet" href="index1.css">
+  </head>
+  <body>
+      <div id="SURVEY"><h1 id="title">MY SURVEY PAGE</h1>
+    <p id="description">This is a survey page created for free code camp projects.</p>
+    <form id="survey-form">
+      <br/><br/>
+      <label for="name" id = "name-label">Name: </label>  
+      <input id="name" type="textbox" placeholder="name" required>
+      <br/><br/>
+      <label for="email" id = "email-label">Email-id: </label>  
+      <input id="email" type="email" placeholder="email" required>
+      <br/><br/>
+      <label for="number" id = "number-label">Phone Number: </label>  
+      <input id="number" type="number" placeholder="number" max="9999999999" type="number" min="6000000000" required>
+      <br/><br/>
+      <label id="dropdown">Date Of Birth: </label>
+      <input type="date" id="birthday" name="birthday">
+      <br/><br/>
+            <legend>Do You Like Animated Videos?</legend>      
+      <input type="checkbox" name="animated-videos" value="yes">YES<br>      
+      <input type="checkbox" name="animated-videos" value="no">NO<br> <br>     
+      <label for="pets" >Select the type of pet you like:</label><br> 
+<label>
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Dogs</label
+    ><br> 
+<label>
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Cats</label
+    ><br> 
+<label>
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Birds</label
+    ><br> 
+<label>
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Wild</label
+    ><br> 
+<label>
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Others</label
+    ><br> 
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Not my cup of tea..</label
+    >
+      <br/><br/>
+ <div class="labels">
+    <label for="most-like"><p>How much do you know about your pet?</p></label>
+  </div>
+  <select id="dropdown" type="dropdown">
+    <option disabled selected value>Select an option</option>
+    <option value="bad">Bad</option>
+    <option value="not-bad">Not bad</option>
+    <option value="good">Good</option>
+    <option value="amazing">Very Well</option>
+    <option value="kofw">This does not apply to me..</option>
+  </select>
+  <br><br><br>
+      <label for="comments">Comments: <br>
+      <textarea type="textarea" class="form-group" placeholder="comments"></textarea> </label>
+      <br/><br/><button><input id="submit" type="submit" value="Submit"></button>
+</form></div>
+</body>
+</html>
